@@ -7,9 +7,11 @@ with open('README.md', encoding='utf-8') as fh:
 
 setuptools.setup(
     name="ats_ckonlpy",
-    version=ckonlpy.__version__,
-    author=ckonlpy.__author__,
-    author_email='whfh3900@niccompany.com',
+    # version=ckonlpy.__version__,
+    # author=ckonlpy.__author__,
+    version='0.0.1',
+    author='suchoi',
+    author_email='su.choi@niccompany.com',
     description="KoNLPy wrapping package",
     long_description=long_description,
     long_description_content_type="text/markdown",
