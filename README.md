@@ -27,10 +27,12 @@ ex) C:\Program Files\Java\jdk-19
 ※ 이전 버젼에서는 %JAVA_HOME%\bin 여기까지만 저장하라고 되어있을텐데 19버젼부터는 server란 경로가 추가되었고 이 안에 jvm.dll 파일이 들어있으니 주의해야 합니다.
 
 
-4. pip install
-pip install로 ats-ckonlpy를 설치 해줍니다.
+4. install
+이제 해당 패키지를 설치해줍니다.
 ```sh
-pip install ats-ckonlpy
+git clone https://github.com/whfh3900/ats_ckonlpy.git
+cd ats_ckonlpy
+python setup.py install
 ```
 
 5. pip install
