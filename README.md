@@ -1,5 +1,5 @@
 # ats_ckonlpy
-> 금융거래의 적요 텍스트 분석을 위한 한국어 형태소 분석기 라이브러리 이며, KoNLPy의 customized version입니다. 본 코드는 https://github.com/lovit/customized_konlpy를 기반으로 작성하였으며 pypi에 배포 하였습니다.(https://pypi.org/project/ats-ckonlpy/)
+> 금융거래의 적요 텍스트 분석을 위한 한국어 형태소 분석기 라이브러리 이며, KoNLPy의 customized version입니다. 본 코드는 [lovit](https://github.com/lovit/customized_konlpy) 님의 코드를 기반으로 작성하였으며 [pypi](https://pypi.org/project/ats-ckonlpy/)에 배포되어 있습니다.
 
 
 ![](./png/image.png)
@@ -9,10 +9,10 @@
 윈도우:
 
 1. 자바 설치 (JDK, oracle.com )
-https://www.oracle.com/java/technologies/downloads/ 에서 본인 os에 맞는 자바를 설치합니다. 
+[JDK](https://www.oracle.com/java/technologies/downloads/) 에 접속해서 본인 os에 맞는 자바를 설치합니다. 
 
 2. jpype 설치
-https://www.lfd.uci.edu/~gohlke/pythonlibs/#jpype 로 이동해서 본인 os와 사용하는 환경의 파이썬 버젼과 맞는 jpype를 다운받고 pip 명령어로 설치합니다.
+[jpype](https://www.lfd.uci.edu/~gohlke/pythonlibs/#jpype) 로 접속해서 본인 os와 사용하는 환경의 파이썬 버젼과 맞는 jpype를 다운받고 pip 명령어로 설치합니다.
 ```sh
 # ex-윈도우
 pip install JPype1-1.4.0-cp38-cp38-win_amd64.whl
@@ -53,7 +53,7 @@ post.pos("신한이경진") # [('신한', 'Nic'), ('이경진', 'Name')]
 ```
 '신한'은 금융용어 말뭉치에 의해 Nic이란 품사로 '이경진'은 사람이름이므로 Name이란 품사로 태깅되는 것을 볼 수 있습니다.
 
-_더 많은 예제와 사용법은 [customized KoNLPy][https://github.com/lovit/customized_konlpy]를 참고하세요._
+_더 많은 예제와 사용법은 [customized KoNLPy](https://github.com/lovit/customized_konlpy) 를 참고하세요._
 
 
 
@@ -63,4 +63,4 @@ _더 많은 예제와 사용법은 [customized KoNLPy][https://github.com/lovit/
 
 라이센스: GNU General Public License v3.0
 
-[https://github.com/lovit/customized_konlpy/blob/master/LICENSE](https://github.com/lovit/customized_konlpy/blob/master/LICENSE)
+[LICENSE](https://github.com/lovit/customized_konlpy/blob/master/LICENSE)
