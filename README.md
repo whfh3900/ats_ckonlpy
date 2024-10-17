@@ -1,10 +1,15 @@
 # 🏦 ats_ckonlpy
-> 금융거래의 적요 텍스트 분석을 위한 한국어 형태소 분석기 라이브러리 이며, KoNLPy의 customized version입니다. 본 코드는 [lovit](https://github.com/lovit/customized_konlpy) 님의 코드를 기반으로 작성하였으며 [pypi](https://pypi.org/project/ats-ckonlpy/)에 배포되어 있습니다.
-
 
 <div align="center">
     <img src="./png/nic.jpg" alt="ats_ckonlpy" width="600"/>
 </div>
+<br>
+<br>
+
+> 금융거래의 적요 텍스트 분석을 위한 한국어 형태소 분석기 라이브러리 이며, KoNLPy의 customized version입니다. 본 코드는 [lovit](https://github.com/lovit/customized_konlpy) 님의 코드를 기반으로 작성하였으며 [pypi](https://pypi.org/project/ats-ckonlpy/)에 배포되어 있습니다.
+
+
+
 
 ## 🚀 설치 방법
 
