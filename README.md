@@ -3,7 +3,7 @@
 
 
 <div align="center">
-    <img src="./png/image.png" alt="ats_ckonlpy" width="800"/>
+    <img src="./png/image.png" alt="ats_ckonlpy" width="600"/>
 </div>
 
 ## 🚀 설치 방법
