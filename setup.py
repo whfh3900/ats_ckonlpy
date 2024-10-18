@@ -9,7 +9,7 @@ setuptools.setup(
     name="ats_ckonlpy",
     # version=ckonlpy.__version__,
     # author=ckonlpy.__author__,
-    version='0.0.3',
+    version='1.0.1',
     author='csu5216',
     author_email='csu5216@gmail.com',
     description="KoNLPy wrapping package",
